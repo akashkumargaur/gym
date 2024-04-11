@@ -7,7 +7,7 @@ import floor from "@/public/images/floor.jpg"
 import stair from "@/public/images/stair.jpg"
 
 
-const Safe = () => {
+const Gallery = () => {
 
     return (
         <div className="  bg-black text-white
@@ -35,4 +35,4 @@ const Safe = () => {
     );
 };
 
-export default Safe;
+export default Gallery;

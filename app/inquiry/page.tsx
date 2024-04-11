@@ -9,7 +9,7 @@ import { FaMailBulk } from "react-icons/fa";
 
 
 
-const Safe = () => {
+const Inquiry = () => {
 
     return (
         <div className="  bg-blue-100 
@@ -105,4 +105,4 @@ const Safe = () => {
     );
 };
 
-export default Safe;
+export default Inquiry;

@@ -24,7 +24,7 @@ import Image from "next/image";
 // import { useRouter } from "next/router";
 import { useRouter } from "next/navigation";
 
-const membership = () => {
+const Membership = () => {
 
   const router = useRouter();
 
@@ -138,4 +138,4 @@ const membership = () => {
   );
 };
 
-export default membership;
+export default Membership;

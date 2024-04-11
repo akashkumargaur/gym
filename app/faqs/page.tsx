@@ -11,7 +11,7 @@ import {
 
 
 
-const Safe = () => {
+const Faq = () => {
 
     return (
         <div className="  bg-black text-white
@@ -58,4 +58,4 @@ const Safe = () => {
     );
 };
 
-export default Safe;
+export default Faq;

@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 
 
 
-const Safe = () => {
+const Contact = () => {
 
     const router = useRouter();
 
@@ -61,4 +61,4 @@ const Safe = () => {
     );
 };
 
-export default Safe;
+export default Contact;

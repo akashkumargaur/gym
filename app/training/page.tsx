@@ -5,7 +5,7 @@ import training2 from "../../public/images/training-2.jpg";
 import training3 from "../../public/images/training-3.jpg";
 import training4 from "../../public/images/04.jpg";
 
-const FindGym  = () => {
+const Training  = () => {
     
     return (
         <div className="  bg-black text-white
@@ -53,4 +53,4 @@ const FindGym  = () => {
       );
 };
 
-export default FindGym;
+export default Training;

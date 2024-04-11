@@ -16,7 +16,7 @@ const myfont = trushdex({
 
 
 
-const Safe = () => {
+const Privacy = () => {
 
     return (
         <div className="  bg-black text-white
@@ -152,7 +152,7 @@ const Safe = () => {
 
                     <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Additional Disclosures</h1>
 
-                    <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">We may also disclose personal information in any of the following circumstances: (1) in response to a subpoena, search warrant, court order, or other legal process or request, or as may otherwise be required by applicable law or regulation; (2) to protect and defend our rights or property or those of its franchisees, suppliers, related entities, affiliates, business partners, or others; or (3) as we, in our sole discretion, believe is appropriate under exigent circumstances in response to a perceived threat to the personal safety, property, or rights of any other person or organization.</p>
+                    <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">We may also disclose personal information in any of the following circumstances: (1) in response to a subpoena, search warrant, court order, or other legal process or request, or as may otherwise be required by applicable law or regulation; (2) to protect and defend our rights or property or those of its franchisees, suppliers, related entities, affiliates, business partners, or others; or (3) as we, in our sole discretion, believe is appropriate under exigent circumstances in response to a perceived threat to the personal Privacyty, property, or rights of any other person or organization.</p>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">In addition, since member information on our Sites and in our Apps is a business asset, in the event we are reorganized or sold to or merged with another company, we may sell, assign, or transfer your personal information to a purchaser of all or substantially all of our business assets, or to an affiliate, as applicable.</p>
 
@@ -200,4 +200,4 @@ const Safe = () => {
     );
 };
 
-export default Safe;
+export default Privacy;

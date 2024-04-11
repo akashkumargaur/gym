@@ -7,7 +7,7 @@ const myfont = trushdex({
     src: "../../public/fonts/Trushdex.ttf"
   })
 
-const Safe = () => {
+const About = () => {
 
     return (
         <div className="  bg-black text-white
@@ -48,4 +48,4 @@ const Safe = () => {
     );
 };
 
-export default Safe;
+export default About;
