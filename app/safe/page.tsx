@@ -28,7 +28,7 @@ const Safe = () => {
         overflow-y-auto">
             <div className="container ml-auto py-6 h-fit  ">
                 <div className="text-cyan-800   font-bold ">
-                    <h1 className="text-xl mt-4 flex justify-center sm:text-5xl">WE'RE READY TO KEEP YOU SAFE </h1>
+                    <h1 className="text-xl mt-4 flex justify-center sm:text-5xl">WE&apos;RE READY TO KEEP YOU SAFE </h1>
                     <Image src={safepg} className="h-[200px] mt-4 w-[200px] mx-auto bg-blend-normal " alt="image" />
                     <div className="bg-[url('/images/bg_temp.png')]  mt-6  hidden sm:block">
                         <Carousel>

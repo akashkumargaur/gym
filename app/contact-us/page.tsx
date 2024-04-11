@@ -23,8 +23,8 @@ const Safe = () => {
         overflow-y-auto">
             <div className="container ml-auto py-6 h-fit  ">
                 <div className=" font-bold ">
-                    <h1 className="text-xl mt-4 flex justify-center sm:text-5xl">We’d Love to Hear from You </h1>
-                    <p className="text-sm mb-4 text-blue text-opacity-10 mt-4 flex justify-center sm:text-md">You can allso contact to our what's app number</p>
+                    <h1 className="text-xl mt-4 flex justify-center sm:text-5xl">We&apos;d Love to Hear from You </h1>
+                    <p className="text-sm mb-4 text-blue text-opacity-10 mt-4 flex justify-center sm:text-md">You can allso contact to our what&apos;s app number</p>
                     <a target="_blank" href="https://www.google.com/maps/place/CORE-FIT+GYM/@26.936183,75.7893125,16z/data=!4m6!3m5!1s0x396db3ff94b2f981:0x727d3c433525aacf!8m2!3d26.9364126!4d75.7966182!16s%2Fg%2F11v613rlsj?entry=ttu"> <Image src={loacaton} alt="location" /></a>
                     <h1 className="text-xl mt-8 flex justify-center sm:text-5xl">GET IN TOUCH </h1>
                     <p className="text-sm mb-4 text-blue text-opacity-10 mt-4 flex justify-center sm:text-md">WE ARE ALWAYS READY TO HEAR FROM YOU  </p>

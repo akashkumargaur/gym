@@ -21,7 +21,8 @@ import training4 from "../../public/images/04.jpg";
 
 
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
+// import { useRouter } from "next/navigation";
 
 const membership = () => {
 
@@ -40,7 +41,7 @@ const membership = () => {
           <h1 className="text-md sm:text-6xl font-bold text-center text-white">Why Join Core Fit Gym Membership?</h1>
           <p className="text-sm sm:text-xl text-center mt-8 text-white sm:w-[50%] mx-auto">Begin your fitness adventure with a lively gym pass at Core Fitness! Enter a realm where a friendly,
             inclusive community flourishes, bringing together individuals of every fitness level. This is
-            beyond just a gym - it's your inspiring fitness sanctuary!</p>
+            beyond just a gym - it&apos;s your inspiring fitness sanctuary!</p>
         </div>
       </div>
       <div className=" mx-4 mt-8 pt-8 ">

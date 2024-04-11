@@ -39,7 +39,7 @@ const Safe = () => {
                         <AccordionItem className="mt-4" value="item-3" >
                             <AccordionTrigger className="px-2 text-xl sm:text-4xl">How much does it cost for a membership?</AccordionTrigger>
                             <AccordionContent className="px-2">
-                            Rates vary based  Because there are often offers, discounts, promotions and programs that are happening that may affect your membership price, for the most accurate information, please contact . We're looking forward to meeting you!
+                            Rates vary based  Because there are often offers, discounts, promotions and programs that are happening that may affect your membership price, for the most accurate information, please contact . We&apos;re looking forward to meeting you!
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-4" >

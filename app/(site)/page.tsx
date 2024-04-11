@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <div className="pl-6">
           <h1 className={`text-2xl ${myfont.className} font-extrabold p-8  sm:text-4xl text-bold `}>Gym, yoga, Cardio, Zumba & More - We Have It All </h1>
-          <p className=" italic   text-sm text-bold   sm:text-xl  mt-2  sm:w-[70%] px-8 mb-2   ">Whether you're new to fitness or a seasoned enthusiast, our skilled trainers guide
+          <p className=" italic   text-sm text-bold   sm:text-xl  mt-2  sm:w-[70%] px-8 mb-2   ">Whether you&apos;re new to fitness or a seasoned enthusiast, our skilled trainers guide
             both group sessions and personalized workouts. These routines are crafted with practical expertise to support your fitness
             journey and foster a strong community.</p>
           <button className="bg-cyan-700 p-2 mx-8 mt-2 mb-2 px-4" ><Link href='/membership'> Know More</Link></button>
@@ -61,7 +61,7 @@ export default function Home() {
       <div className="  sm:flex p-2 mt-6">
         <div className="">
           <h1 className={`text-4xl ${myfont.className} font-extrabold p-8 text-white sm:text-4xl text-bold text-end`}>Stop Existing, Start Thriving</h1>
-          <p className="  italic px-8 text-sm text-bold text-center   sm:text-xl  mt-3=2 sm:pl-[40%]  sm:text-start ">Are you tired of just going through the motions? Ready to ditch the routine and ignite your fitness journey? We get it. At Core Fit Gym, we're here to help you stop existing and start thriving. We offer personalized plans for all fitness levels, from high-energy Zumba to restorative yoga. Let our expert trainers guide you,  accommodate past injuries, and  unleash your inner athlete. It's time to feel your best and live life to the fullest.</p>
+          <p className="  italic px-8 text-sm text-bold text-center   sm:text-xl  mt-3=2 sm:pl-[40%]  sm:text-start ">Are you tired of just going through the motions? Ready to ditch the routine and ignite your fitness journey? We get it. At Core Fit Gym, we&apos;re here to help you stop existing and start thriving. We offer personalized plans for all fitness levels, from high-energy Zumba to restorative yoga. Let our expert trainers guide you,  accommodate past injuries, and  unleash your inner athlete. It&apos;s time to feel your best and live life to the fullest.</p>
         </div>
         <div className=" mx-auto my-auto sm:pl-4  sm:w-[60%] flex justify-center sm:justify-start ">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/s8hWQwFwayo?si=0Icf8z8FzJ1lcBgx" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="pl-2 mx-auto">
           <h1 className={`text-2xl ${myfont.className} font-extrabold p-8  sm:text-4xl text-bold `}>Call to Action Button </h1>
-          <p className=" italic   text-sm text-bold   sm:text-xl  mt-2  sm:w-[70%] px-8 mb-2   ">Whether you're new to fitness or a seasoned enthusiast, our skilled trainers guide
+          <p className=" italic   text-sm text-bold   sm:text-xl  mt-2  sm:w-[70%] px-8 mb-2   ">Whether you&apos;re new to fitness or a seasoned enthusiast, our skilled trainers guide
             both group sessions and personalized workouts. These routines are crafted with practical expertise to support your fitness
             journey and foster a strong community.</p>
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
               <div className="border-black border-2 min-h-[200px] max-h-fit sm:h-[300px] embla__slide">
                 <p className="text-ellipsis overflow-hidden talic text-center  text-sm text-bold   sm:text-xl  mt-2 px-8 mb-4">
                   Well I have been a monthly member now getting to get along with the people there.
-                  It's a Great place for fitness freaks. There is passion in the Gym Fitness Instructors and
+                  It&apos;s a Great place for fitness freaks. There is passion in the Gym Fitness Instructors and
                   they work towards getting you towards Fitness.
                 </p>
                 <h2 className="text-4xl font-extrabold p-8 text-cyan-900 sm:text-4xl text-bold text-end">Priya Mehta</h2>
