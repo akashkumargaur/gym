@@ -21,8 +21,8 @@ import training4 from "../../public/images/04.jpg";
 
 
 import Image from "next/image";
-import { useRouter } from "next/router";
-// import { useRouter } from "next/navigation";
+// import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const membership = () => {
 
