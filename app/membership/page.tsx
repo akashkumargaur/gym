@@ -56,10 +56,10 @@ const Membership = () => {
       </div>
       {/* // 50% on small screens and 33% on larger screens. */}
       <div className="flex flex-col justify-center mt-6 pt-6">
-        <button onClick={()=>router.push('/inquiry')} className="text-md sm:text-6xl mx-auto mt-4 border-2 w-fit border-lime-300 hover:bg-slate-500 hover:text-white font-bold py-2 px-4 rounded-full">Member Inquiry</button>
+        <button onClick={()=>router.push('/inquiry')} className="text-md sm:text-4xl mx-auto mt-4 border-2 w-fit border-lime-300 hover:bg-slate-500 hover:text-white font-bold py-2 px-4 rounded-full">Member Inquiry</button>
         <h2 className="text-3xl font-bold text-center mt-6 pt-6">WHY CHOOSE Core FITNESS GYM MEMBERSHIP</h2>
       </div>
-      <div className="sm:grid sm:grid-cols-2 gap-4 justify-center items-center pt-4  mt-10 mb-10 sm:mx-8  w-full  text-white">
+      <div className="sm:grid sm:grid-cols-2 gap-2 lg:gap-4 justify-center items-center pt-4  mt-10 mb-10 sm:mx-8  w-full  text-white">
         <div className=" mx-4  font-bold flex flex-col items-center">
           <Image src={membership1} className="h-fit w-fit " alt="image" />
           <h1 className="p-2  text-center sm:text-2xl">SUPPORT </h1>
@@ -88,11 +88,11 @@ const Membership = () => {
       <Image src={training4} alt="image" className="h-[80%] w-[80%] mx-auto mt-10 " />
       <div className="flex flex-col justify-center mt-6">
         <hr className="mb-4 mx-auto w-[50%] pt-4 border-black" />
-        <h2 className="text-4xl sm:text-6xl font-bold text-center mt-6">Core Fitness Gym Membership Offers</h2>
+        <h2 className="text-4xl sm:text-6xl font-bold text-center  mt-6">Core Fitness Gym Membership Offers</h2>
       </div>
-      <div className="sm:flex sm:justify-between  sm:flex-grow  mt-10 pt-4 mx-auto sm:w-[60%] w-full  text-black">
+      <div className="sm:flex sm:justify-between  sm:flex-grow  mt-10 pt-4 mx-auto sm:w-[60%]  w-full  text-black">
         <div className=" mx-4  font-bold text-center sm:text-start">
-          <h1 className="p-2 text-3xl text-white text-center  sm:text-4xl">Equipment </h1>
+          <h1 className="py-2 text-3xl text-white text-start  sm:text-4xl">Equipment </h1>
           <p className="  text-xl mt-2  p-2 text-gray-700">Treadmills</p>
           <p className="  text-xl  p-2 text-gray-700">Exercise Cycles</p>
           <p className=" text-xl  p-2 text-gray-700">Stair Climbers</p>
@@ -106,7 +106,7 @@ const Membership = () => {
           <p className="  text-xl  p-2 text-gray-700">Amt Crosstrainers</p>
         </div>
         <div className=" mx-4  font-bold text-center sm:text-start">
-        <h1 className="p-2 text-3xl text-white text-center  sm:text-4xl">Lifestyle </h1>
+        <h1 className="py-2 text-3xl text-start text-white   sm:text-4xl">Lifestyle </h1>
           {/* <h1 className="p-2 text-4xl text-white text-center sm:text-5xl">Lifestyle </h1> */}
           <p className="  text-xl  mt-2 p-2 text-gray-700">Personal Training</p>
           <p className="  text-xl  p-2 text-gray-700">Team Workouts</p>
@@ -119,7 +119,7 @@ const Membership = () => {
           <p className="  text-xl  p-2 text-gray-700">Yoga Classes</p>
         </div>
         <div className=" mx-4 font-bold text-center sm:text-start">
-          <h1 className="p-2 text-3xl text-white text-center sm:text-4xl">Services </h1>
+          <h1 className="py-2 text-3xl text-white  sm:text-4xl">Services </h1>
           <p className="  text-xl mt-2  p-2 text-gray-700">24-Hour Access</p>
           <p className="  text-xl  p-2 text-gray-700">24-Hour Security</p>
           <p className="  text-xl  p-2 text-gray-700">Convenient Parking</p>
@@ -132,7 +132,7 @@ const Membership = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center mt-6 mb-6">
-      <button onClick={()=>router.push('/inquiry')} className="text-md sm:text-6xl mx-auto mt-4 border-2 w-fit border-lime-300 hover:bg-slate-500 hover:text-white font-bold py-2 px-4 rounded-full">Member Inquiry</button>
+      <button onClick={()=>router.push('/inquiry')} className="text-md sm:text-4xl mx-auto mt-4 border-2 w-fit border-lime-300 hover:bg-slate-500 hover:text-white font-bold py-2 px-4 rounded-full">Member Inquiry</button>
       </div>
     </div>
   );
