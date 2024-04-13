@@ -18,6 +18,10 @@ import training1 from "../../public/images/01.jpg";
 import training2 from "../../public/images/training-2.jpg";
 import training3 from "../../public/images/training-3.jpg";
 import training4 from "../../public/images/04.jpg";
+import support from "../../public/images/support 1.png";
+import training from "../../public/images/Training.png";
+import community from "../../public/images/community.png";
+import convinence from "../../public/images/Convinence.png";
 
 
 import Image from "next/image";
@@ -61,25 +65,25 @@ const Membership = () => {
       </div>
       <div className="sm:grid sm:grid-cols-2 gap-2 lg:gap-4 justify-center items-center pt-4  mt-10 mb-10 sm:mx-8  w-full  text-white">
         <div className=" mx-4  font-bold flex flex-col items-center">
-          <Image src={membership1} className="h-fit w-fit " alt="image" />
+          <Image src={support} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2  text-center sm:text-2xl">SUPPORT </h1>
           <p className=" p-12 mx-4 text-xl text-center  font-light mt-5 tracking-wide mb-10 ">Gain confidence for your fitness journey with
             our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
         </div>
         <div className=" mx-4  font-bold flex flex-col items-center">
-          <Image src={membership2} className="h-fit w-fit " alt="image" />
+          <Image src={training} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center sm:text-2xl">Tools & Training</h1>
           <p className="p-12 mx-4 text-xl text-center  font-light  mt-5 tracking-wide mb-10 ">Gain confidence for your fitness journey with
             our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
         </div>
         <div className=" mx-4 font-bold flex flex-col items-center">
-          <Image src={membership3} className="h-fit w-fit " alt="image" />
+          <Image src={convinence} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center sm:text-2xl">Convenience </h1>
           <p className="p-12 mx-4 text-xl text-center  font-light  mt-5 tracking-wide mb-10 ">Gain confidence for your fitness journey with
             our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
         </div>
         <div className=" mx-4 font-bold flex flex-col items-center">
-          <Image src={membership4} className="h-fit w-fit " alt="image" />
+          <Image src={community} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center sm:text-2xl">Community </h1>
           <p className="p-12 mx-4 text-xl text-center  font-light  mt-5 tracking-wide mb-10 ">Gain confidence for your fitness journey with
             our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
@@ -92,7 +96,7 @@ const Membership = () => {
       </div>
       <div className="sm:flex sm:justify-between  sm:flex-grow  mt-10 pt-4 mx-auto sm:w-[60%]  w-full  text-black">
         <div className=" mx-4  font-bold text-center sm:text-start">
-          <h1 className="py-2 text-3xl text-white text-start  sm:text-4xl">Equipment </h1>
+          <h1 className="py-2 text-3xl text-white text-center sm:text-start  sm:text-4xl">Equipment </h1>
           <p className="  text-xl mt-2  p-2 text-gray-700">Treadmills</p>
           <p className="  text-xl  p-2 text-gray-700">Exercise Cycles</p>
           <p className=" text-xl  p-2 text-gray-700">Stair Climbers</p>
@@ -106,7 +110,7 @@ const Membership = () => {
           <p className="  text-xl  p-2 text-gray-700">Amt Crosstrainers</p>
         </div>
         <div className=" mx-4  font-bold text-center sm:text-start">
-        <h1 className="py-2 text-3xl text-start text-white   sm:text-4xl">Lifestyle </h1>
+        <h1 className="py-2 text-3xl  text-center sm:text-start text-white   sm:text-4xl">Lifestyle </h1>
           {/* <h1 className="p-2 text-4xl text-white text-center sm:text-5xl">Lifestyle </h1> */}
           <p className="  text-xl  mt-2 p-2 text-gray-700">Personal Training</p>
           <p className="  text-xl  p-2 text-gray-700">Team Workouts</p>
@@ -119,7 +123,7 @@ const Membership = () => {
           <p className="  text-xl  p-2 text-gray-700">Yoga Classes</p>
         </div>
         <div className=" mx-4 font-bold text-center sm:text-start">
-          <h1 className="py-2 text-3xl text-white  sm:text-4xl">Services </h1>
+          <h1 className="py-2 text-3xl  text-center sm:text-start text-white  sm:text-4xl">Services </h1>
           <p className="  text-xl mt-2  p-2 text-gray-700">24-Hour Access</p>
           <p className="  text-xl  p-2 text-gray-700">24-Hour Security</p>
           <p className="  text-xl  p-2 text-gray-700">Convenient Parking</p>

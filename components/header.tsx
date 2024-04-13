@@ -9,7 +9,7 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
 import Image from "next/image";
-import logo from "../public/images/logo2.jpg";
+import logo from "../public/images/logo.jpg";
 import HeaderItem from "./HeaderItem";
 import Link from "next/link";
 
@@ -76,14 +76,18 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
     };
   }, []);
 
+  const handlelinkClick =()=>{
+
+  }
+
   return (
     <div
       className={twMerge(`
-              min-h-[100px]
+              min-h-[120px]
               max-h-fit 
               bg-black scale-smooth
               sm:fixed top-0 w-full
-              p-6 z-50 opacity-100
+              pl-6 pt-6 z-50 opacity-100
               ${isScrolled ? 'opacity-65' : 'opacity-100'}
               `,
         className
