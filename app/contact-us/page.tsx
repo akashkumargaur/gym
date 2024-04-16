@@ -15,7 +15,7 @@ const Contact = () => {
     const router = useRouter();
 
     return (
-        <div className="  bg-black text-white
+        <div className="   text-black
         rounded-lg 
         h-fit 
         w-full 
@@ -32,17 +32,17 @@ const Contact = () => {
                         <div className=" mx-4  font-bold text-center sm:text-start">
                             <CiLocationArrow1 className="text-center rounded-xl sm:text-start mx-auto" size={50} />
                             <h1 className="p-2 text-4xl  text-center  sm:text-5xl">Head Office </h1>
-                            <p className="hover:text-green-800 italic text-xl mt-2  p-2 text-gray-700">Treadmills</p>
+                            <p className="hover:text-green-800 italic text-xl mt-2  p-2 text-gray-700"><a href="https://www.google.com/maps/place/CORE-FIT+GYM/@26.936183,75.7893125,16z/data=!4m6!3m5!1s0x396db3ff94b2f981:0x727d3c433525aacf!8m2!3d26.9364126!4d75.7966182!16s%2Fg%2F11v613rlsj?entry=ttu" target="_blank" className="text-xl"> Jaipur , Rajasthan </a></p>
                         </div>
                         <div className=" mx-4  font-bold text-center sm:text-start">
                             <FaPhoneAlt className="text-center  rounded-xl sm:text-start mx-auto" size={50} />
                             <h1 className="p-2 text-4xl  text-center sm:text-5xl">Call Us </h1>
-                            <p className="hover:text-green-800 italic text-xl  mt-2 p-2 text-gray-700">Personal Training</p>
+                            <p className="hover:text-green-800 italic text-xl  mt-2 p-2 text-gray-700"><a href="tel: +919785829526" target="_blank" className="text-xl"> 9785829526 </a></p>
                         </div>
                         <div className=" mx-4 font-bold text-center sm:text-start">
                             <FaMailBulk className="text-center  rounded-xl sm:text-start mx-auto" size={50} />
                             <h1 className="p-2 text-4xl  text-center sm:text-5xl">Mail US </h1>
-                            <p className=" hover:text-green-800 italic text-xl mt-2  p-2 text-gray-700"><a href="mailto: corefit18@gmail.com" className="text-xl"> corefit18@gmail.com </a></p>
+                            <p className=" hover:text-green-800 italic text-xl mt-2  p-2 text-gray-700"> <a href="mailto: corefit18@gmail.com" target="_blank" className="text-xl"> corefit18@gmail.com </a></p>
                         </div>
                     </div>
                     <h1 className="text-xl mt-8 flex justify-center sm:text-5xl">Give us feedback!</h1>

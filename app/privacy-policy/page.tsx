@@ -8,18 +8,11 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import trushdex from "next/font/local";
-
-const myfont = trushdex({
-    src: "../../public/fonts/Trushdex.ttf"
-  })
-
-
 
 const Privacy = () => {
 
     return (
-        <div className="  bg-black text-white
+        <div className="   text-black
         rounded-lg 
         h-fit 
         w-full 
@@ -27,7 +20,7 @@ const Privacy = () => {
         overflow-y-auto">
             <div className="container ml-auto py-6 h-fit  ">
                 <div className="  ">
-                    <h1 className={`text-3xl ${myfont.className} mt-4 flex justify-center sm:text-5xl`}>Privacy Policy </h1>
+                    <h1 className={`text-3xl mt-4 flex justify-center sm:text-5xl`}>Privacy Policy </h1>
                     <p className="  italic  px-8 text-sm text-bold text-start   sm:text-xl  mt-6  sm:text-center ">Core Fitness Gym India,
                         respects the importance of privacy of your personal information. This Privacy Policy outlines our current policy on personal information concerning
                         club members, consumers,  and covers the operations of our fitness clubs, business development,
@@ -58,17 +51,17 @@ const Privacy = () => {
                     <p className="  italic  px-8 text-sm text-bold text-start   sm:text-xl  mt-6  sm:text-center " >We
                         encourage you to read this whenever you visit our fitness clubs or Sites, since we may change this policy from time to time.
                         A copy of the current policy is always posted at policy section. </p>
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Territories</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>Territories</h1>
                     <p className="italic  px-8 text-sm text-bold text-start sm:text-xl mt-6 ">
                         This Privacy Policy covers our activities in India. We host the Sites currently on servers located within India but the locations of our servers may change from time-to-time, and your personal information may be stored on servers located within India or in another country. Further, our franchisees may maintain individual websites in the country or territory they service.
                     </p>
 
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Consent</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>Consent</h1>
                     <p className="italic  px-8 text-sm text-bold text-start sm:text-xl mt-6 ">
                         BY SUBMITTING YOUR PERSONAL INFORMATION TO US, YOU ARE CONSENTING TO THE PROCESSING OF YOUR PERSONAL INFORMATION IN India OR IN ANY OTHER COUNTRY IN THE WORLD AND TO OUR USE OF YOUR PERSONAL INFORMATION AS SET FORTH IN THIS PRIVACY POLICY. IF YOU ARE SUBMITTING PERSONAL INFORMATION OF THIRD PARTIES TO US, YOU WARRANT AND REPRESENT THAT YOU HAVE THEIR CONSENT TO PROVIDE THEIR PERSONAL INFORMATION TO US AND WILL HOLD US HARMLESS FROM AND AGAINST CLAIMS BY SUCH INDIVIDUALS RELATING TO OUR PROCESSING AND USE OF SUCH PERSONAL INFORMATION WITHIN THE TERMS OF THIS PRIVACY POLICY.
                     </p>
 
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>1. Personal Information We Collect through the Sites and Apps</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>1. Personal Information We Collect through the Sites and Apps</h1>
                     <p className="italic  px-8 text-sm text-bold text-start sm:text-xl mt-6 ">
                         In general, you can browse the non-password protected portions of our Sites without telling us who you are or revealing any personal information about yourself, except for our collection of “cookies” as described in Section 3.
 
@@ -124,7 +117,7 @@ const Privacy = () => {
                         <br className=""></br>
                         Our Sites and Apps are not designed for children and we do not knowingly collect information from any person we know is under the age of 13. If we learn that we have received or collected personal information from a child under the age of 13, we will delete that information.
                     </p>
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>2. How We Use and Share Your Personal Information</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>2. How We Use and Share Your Personal Information</h1>
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">We will use your personal information to provide the services we offer on the Site and through our Apps, including:</p>
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">Processing and updating your membership information, including personal information you provide, credit card information or other electronic payment processing;</p>
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">Processing your billing information, which may be contracted to our third party payment processing vendor;</p>
@@ -150,13 +143,13 @@ const Privacy = () => {
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">Except as described in this section, we will not give or sell your personal information to any other party for its use in marketing or solicitation.</p>
 
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Additional Disclosures</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>Additional Disclosures</h1>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">We may also disclose personal information in any of the following circumstances: (1) in response to a subpoena, search warrant, court order, or other legal process or request, or as may otherwise be required by applicable law or regulation; (2) to protect and defend our rights or property or those of its franchisees, suppliers, related entities, affiliates, business partners, or others; or (3) as we, in our sole discretion, believe is appropriate under exigent circumstances in response to a perceived threat to the personal Privacyty, property, or rights of any other person or organization.</p>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">In addition, since member information on our Sites and in our Apps is a business asset, in the event we are reorganized or sold to or merged with another company, we may sell, assign, or transfer your personal information to a purchaser of all or substantially all of our business assets, or to an affiliate, as applicable.</p>
 
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Our Use of Your “Cookie” Information on the Sites and Apps</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>Our Use of Your “Cookie” Information on the Sites and Apps</h1>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">A “cookie” is a small data file stored on your web browser or on your mobile device that allows us to recognize your computer or mobile device when you visit the Sites or Apps by associating identification numbers with other user information you have provided to us. Some cookies will remain on the hard drive of your computer or mobile device for the duration of your browser or user session, while others will remain until deleted by you. You may also be able to configure your computer or mobile device to limit the collection of these “cookies,” but that limitation may also limit our ability to provide all the services or functionality of the Sites or Apps. Some third party service providers may use “flash cookies,” which are saved on your computer, but cannot be rejected, disabled, turned off, opted out of, or deleted in the same way as regular cookies.To learn how to manage your flash cookie settings, visit the Flash player settings page on Adobe’s website.</p>
 
@@ -175,19 +168,19 @@ const Privacy = () => {
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">We may also use third-party vendors, such as Google Analytics, to advertise to our users online. These third-party vendors may display Core Fitness® product advertisements on other websites based on your internet usage. More specifically, these vendors use first-party cookies (such as the Google Analytic cookie) and third-party cookies (such as the DoubleClick cookie) together to inform, optimize, and serve ads based on your past visits to the Site or other sites affiliated with Core Fitness® products or services. Any information that these third parties collect via cookies is not linked to any personally identifiable information (name, address, email address, or phone number) we collect or you provide on the website. You can opt-out of Google Analytics for Display Advertising by using Google’s Ads Settings.</p>
 
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Our Relationship with the Websites</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>Our Relationship with the Websites</h1>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">In addition to the integration with certain mobile applications as described in this Privacy Policy, the Sites and Apps may contain links to other web sites or other mobile applications. Additionally, other web sites may contain links to the Sites. We do not review or monitor the web sites linked to the Sites and are not responsible for the contents or privacy policies related to any other web sites. If you visit one of these other web sites, you may want to review the privacy policy on that web site. Where the Sites contains a link to another web site owned and/or operated by us, such website’s use may be subject to different and additional terms of service and privacy policy terms and conditions.</p>
 
-                    <h1 className={`text-xl ${myfont.className} mt-8 flex justify-center sm:text-5xl`}>Access and Correction of your Personal Information</h1>
+                    <h1 className={`text-xl mt-8 flex justify-center sm:text-5xl`}>Access and Correction of your Personal Information</h1>
 
-                    <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">We strive to maintain the accuracy and integrity of the personal information in our databases and to keep that information up-to-date. We encourage you to promptly update your personal information if it changes. You may edit or deactivate your account information or account at any time by signing into your account on the Sites or the Apps and navigating through your settings. You may request a copy of the personal information we have about you. You may send a request by email to: Core Fitness, Attention: Member Experience Manager at corefit18@gmail.com</p>
+                    <p className=" px-8 text-sm text-start sm:text-xl mt-6 ">We strive to maintain the accuracy and integrity of the personal information in our databases and to keep that information up-to-date. We encourage you to promptly update your personal information if it changes. You may edit or deactivate your account information or account at any time by signing into your account on the Sites or the Apps and navigating through your settings. You may request a copy of the personal information we have about you. You may send a request by email to: Core Fitness, Attention: Member Experience Manager at corefit18@gmail.com</p>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">Methods for Submitting Privacy Requests to Us</p>
 
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">To submit a verifiable data privacy request to us, please complete the online Data Privacy Request form located here
                     </p>
-                    <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 ">E-mail Us  at: <a href= "mailto: corefit18@gmail.com" className="text-xl"> corefit18@gmail.com </a>
+                    <p className="  px-8 text-sm font-bold text-start sm:text-md mt-6 ">E-mail Us  at: <p className="underline text-teal-600"> <a href= "mailto: corefit18@gmail.com" className="text-xl"> corefit18@gmail.com </a></p>
                     </p>
                     <p className="italic  px-8 text-sm font-bold text-start sm:text-xl mt-6 "> We will attempt to respond to and resolve those complaints to your satisfaction.
                     </p>

@@ -2,16 +2,16 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import trushdex from "next/font/local";
 
 import { twMerge } from "tailwind-merge";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
 import Image from "next/image";
-import logo from "../public/images/logo.jpg";
+import logo from "../public/images/logo-main.png";
 import HeaderItem from "./HeaderItem";
 import Link from "next/link";
+import SubHeader from "./subHeader";
 
 
 interface HeaderProps {
@@ -21,9 +21,7 @@ interface HeaderProps {
 
 // const pacifico = Pacifico({ subsets: ["latin"], weight: ['400'] });v'../../public/fonts/Trushdex.ttf'
 
-const myfont = trushdex({
-  src: "../public/fonts/Trushdex.ttf"
-})
+
 
 const Header: React.FC<HeaderProps> = ({ children, className }) => {
   const pathname = usePathname();
@@ -85,21 +83,22 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
       className={twMerge(`
               min-h-[120px]
               max-h-fit 
-              bg-black scale-smooth
+              bg-white scale-smooth
               sm:fixed top-0 w-full
-              pl-6 pt-6 z-50 opacity-100
+                z-50 opacity-100
               ${isScrolled ? 'opacity-65' : 'opacity-100'}
               `,
         className
       )}>
-      <div className={`${myfont.className} w-full mb-4`}>
-        <div className="flex flex-col ">
+        {!isScrolled&&<SubHeader><></></SubHeader>}
+      <div className={` w-full mb-4`}>
+        <div className="flex flex-col pl-6 pt-6">
           <div className="flex justify-between sm:w-full">
             <Image src={logo} alt="logo" width={100} height={100} onClick={() => router.push('/')} className="sm:h-400" />
-            <div className="pl-1 sm:pl-4 pt-4 text-bold my-auto text-3xl text-white">
+            <div className="pl-1 sm:pl-4 pt-4 text-bold my-auto text-3xl ">
               <p className="text-center"><Link href='/'>Core Fit Gym</Link> </p>
             </div>
-            <div className="hidden sm:flex justify-end md:flex  my-auto text-md sm:text-2xl  text-white mx-auto tracking-wider ">
+            <div className="hidden sm:flex justify-end md:flex  my-auto text-md sm:text-2xl   mx-auto tracking-wider ">
               {routes.map((item) => (
                 <HeaderItem key={item.label} {...item} />
               ))}
@@ -117,12 +116,12 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                     z-50
                   "
           >
-            {!isOpen ? <IoReorderThreeOutline className="text-white" size={30} /> : <RxCross2 className="text-white" size={20} />}
+            {!isOpen ? <IoReorderThreeOutline className="" size={30} /> : <RxCross2 className="" size={20} />}
           </button>
         </div>
           </div>
           {isOpen && <>
-            <div className="flex flex-col mt-2 text-2xl  text-white mx-auto  items-end tracking-wider">
+            <div className="flex flex-col mt-2 text-2xl   mx-auto  items-end tracking-wider">
               {routes.map((item) => (
                 <HeaderItem key={item.label} {...item} />
               ))}

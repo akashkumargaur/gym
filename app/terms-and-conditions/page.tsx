@@ -14,7 +14,7 @@ import {
 const Terms = () => {
 
     return (
-        <div className="  bg-black text-white
+        <div className="  text-black
         rounded-lg 
         h-fit 
         w-full 

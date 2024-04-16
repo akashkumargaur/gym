@@ -29,7 +29,7 @@ const HeaderItem: React.FC<HeaderItemProps> = ({
         text-black-100
         px-4
         `,
-        active && "text-green-100"
+        active && ""
         )
       }
     >

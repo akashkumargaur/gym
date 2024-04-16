@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import WhatsApp from "@/components/contactwp";
+import Insta from "@/components/contactinsta";
 
 const inter = Kanit({ subsets: ["latin"], weight: ['400'] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header><> {/*header*/}</></Header>
         {children}
+        <Insta><></></Insta>
         <WhatsApp><></></WhatsApp>
         <Footer><> {/*footer*/}</></Footer>
       </body>

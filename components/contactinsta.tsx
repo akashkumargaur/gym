@@ -2,16 +2,14 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
-import { MdOutlineMessage } from "react-icons/md";
-import { IoClose } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 
-interface WhatsAppProps {
+interface InstaProps {
     children: React.ReactNode;
     className?: string;
 }
 
-const WhatsApp: React.FC<WhatsAppProps> = ({ children, className }) => {
+const Insta: React.FC<InstaProps> = ({ children, className }) => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +19,7 @@ const WhatsApp: React.FC<WhatsAppProps> = ({ children, className }) => {
 
 
     return (
-        <div className="fixed shadow-2xl shadow-black opacity-70  h-fit right-5 bottom-6 bg-green-100 text-green-700 rounded-xl p-2 mr-4 hover:cursor-pointer">
+        <div className="fixed shadow-2xl shadow-black opacity-70 h-fit right-5 bottom-28 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-xl p-2 mr-4 hover:cursor-pointer">
             {/* {isOpen ?
                 <div className="relative  bottom-20 bg-green-100 text-green-700 rounded-xl p-2  hover:cursor-pointer">
                     <button className=" " onClick={handleClick}>
@@ -37,10 +35,10 @@ const WhatsApp: React.FC<WhatsAppProps> = ({ children, className }) => {
                 </button>
             </div> : <><button><IoClose onClick={handleClick} size={50} /></button></>} */}
 
-            <Link href={'https://wa.me/919785829526'} target="_blank"><FaWhatsapp onClick={handleClick} size={50} /></Link>
+            <Link href={'https://www.instagram.com/corefitgym_18?igsh=ZzQ0MWFjdXg3bXV2'} target="_blank"><FaInstagram color="white" onClick={handleClick} size={50} /></Link>
         </div>
 
     );
 };
 
-export default WhatsApp;
+export default Insta;

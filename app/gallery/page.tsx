@@ -10,7 +10,7 @@ import stair from "@/public/images/stair.jpg"
 const Gallery = () => {
 
     return (
-        <div className="  bg-black text-white
+        <div className=" text-black
         rounded-lg 
         h-full 
         w-full 

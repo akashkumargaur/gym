@@ -67,7 +67,8 @@ const Footer :React.FC<FooterProps> = ({ children ,className }) => {
         return (
           <div
             className={twMerge(`
-               sm:h-[250px]
+               sm:min-h-[260px]
+               sm:max-h-[fit]
                w-full
                bottom-0
               bg-slate-600

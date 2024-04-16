@@ -14,7 +14,7 @@ import {
 const Faq = () => {
 
     return (
-        <div className="  bg-black text-white
+        <div className="   text-black
         rounded-lg 
         h-full 
         w-full 
