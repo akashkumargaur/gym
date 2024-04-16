@@ -52,22 +52,22 @@ export default function Home() {
         <div className=" mx-4 my-6  font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={support} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2  text-center sm:text-xl">Yoga </h1>
-          <p className=" p-12 mx-4 text-md text-center  font-light mt-5 tracking-wide mb-10 ">Yoga is a great way to work on your flexibility, mind and strength. Learn new forms and styles of yoga with our trained yoga trainers and achieve the superior relaxation.</p>
+          <p className=" p-8 mx-4 text-md text-center  font-light  tracking-wide mb-10 ">Yoga is a great way to work on your flexibility, mind and strength. Learn new forms and styles of yoga with our trained yoga trainers and achieve the superior relaxation.</p>
         </div>
         <div className=" mx-4 my-6  font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={training} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center sm:text-xl">Body Building</h1>
-          <p className="p-12 mx-4 text-md text-center  font-light  mt-5 tracking-wide mb-10 ">Build your body in every aspect. Whether you want to get lean or want to get a bulky masculine body, its all now possible with our trainers guidance and your hard work.</p>
+          <p className="p-8 mx-4 text-md text-center  font-light   tracking-wide mb-10 ">Build your body in every aspect. Whether you want to get lean or want to get a bulky masculine body, its all now possible with our trainers guidance and your hard work.</p>
         </div>
         <div className=" mx-4 my-6 font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={convinence} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center sm:text-xl">Zumba </h1>
-          <p className="p-12 mx-4 text-md text-center  font-light  mt-5 tracking-wide mb-10 ">Zumba is pretty awesome workout. Dance to great music, with great people and our passionate Zumba trainers, and burn a ton of calories without even realizing it.</p>
+          <p className="p-8 mx-4 text-md text-center  font-light   tracking-wide mb-10 ">Zumba is pretty awesome workout. Dance to great music, with great people and our passionate Zumba trainers, and burn a ton of calories without even realizing it.</p>
         </div>
         <div className=" mx-4 my-6 font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={community} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center sm:text-xl">Weight Lifting </h1>
-          <p className="p-12 mx-4 text-md text-center  font-light  mt-5 tracking-wide mb-10 ">Play with the Barbells and lift the weights to get the best results of your muscle forming with our specialized weight-lift coaches and increase your lean body mass.</p>
+          <p className="p-8 mx-4 text-md text-center  font-light   tracking-wide mb-10 ">Play with the Barbells and lift the weights to get the best results of your muscle forming with our specialized weight-lift coaches and increase your lean body mass.</p>
         </div>
       </div>
       <div className="sm:flex sm:justify-center text-black p-2 pt-8 mt-4">
