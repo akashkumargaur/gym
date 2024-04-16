@@ -91,8 +91,8 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         className
       )}>
         {!isScrolled&&<SubHeader><></></SubHeader>}
-      <div className={` w-full mb-4`}>
-        <div className="flex flex-col pl-6 pt-6">
+      <div className={` w-full `}>
+        <div className="flex flex-col pl-2 pt-2">
           <div className="flex justify-between sm:w-full">
             <Image src={logo} alt="logo" width={100} height={100} onClick={() => router.push('/')} className="sm:h-400" />
             <div className="pl-1 sm:pl-4 pt-4 text-bold my-auto text-3xl ">
