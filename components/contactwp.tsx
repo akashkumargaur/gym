@@ -37,7 +37,7 @@ const WhatsApp: React.FC<WhatsAppProps> = ({ children, className }) => {
                 </button>
             </div> : <><button><IoClose onClick={handleClick} size={50} /></button></>} */}
 
-            <Link href={'https://wa.me/919785829526'} target="_blank"><FaWhatsapp onClick={handleClick} size={50} /></Link>
+            <Link href={'https://wa.me/919785829526'} target="_blank"><FaWhatsapp onClick={handleClick} size={35} /></Link>
         </div>
 
     );

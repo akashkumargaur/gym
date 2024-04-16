@@ -30,7 +30,7 @@ const FooterItem: React.FC<FooterItemProps> = ({
         pb-4
         sm:pb-1
         `,
-        active && " "
+        active && ""
         )
       }
     >

@@ -48,25 +48,25 @@ export default function Home() {
             inclusive community flourishes, bringing together individuals of every fitness level. </p>
         </div>
       </div>
-      <div className="sm:flex sm:grid-cols-2 gap-2 lg:gap-4 justify-center items-center pt-4  mt-10 mb-10 sm:mx-8  w-full  text-black">
+      <div className="sm:flex  sm:justify-between items-center px-auto   mx-auto sm:mx-auto  w-full  text-black">
         <div className=" mx-4 my-6  font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={support} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
-          <h1 className="p-2  text-center sm:text-xl">Yoga </h1>
+          <h1 className="p-2  text-center text-2xl">Yoga </h1>
           <p className=" p-8 mx-4 text-md text-center  font-light  tracking-wide mb-10 ">Yoga is a great way to work on your flexibility, mind and strength. Learn new forms and styles of yoga with our trained yoga trainers and achieve the superior relaxation.</p>
         </div>
         <div className=" mx-4 my-6  font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={training} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
-          <h1 className="p-2 text-center sm:text-xl">Body Building</h1>
+          <h1 className="p-2 text-center text-2xl">Body Building</h1>
           <p className="p-8 mx-4 text-md text-center  font-light   tracking-wide mb-10 ">Build your body in every aspect. Whether you want to get lean or want to get a bulky masculine body, its all now possible with our trainers guidance and your hard work.</p>
         </div>
         <div className=" mx-4 my-6 font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={convinence} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
-          <h1 className="p-2 text-center sm:text-xl">Zumba </h1>
+          <h1 className="p-2 text-center text-2xl">Zumba </h1>
           <p className="p-8 mx-4 text-md text-center  font-light   tracking-wide mb-10 ">Zumba is pretty awesome workout. Dance to great music, with great people and our passionate Zumba trainers, and burn a ton of calories without even realizing it.</p>
         </div>
         <div className=" mx-4 my-6 font-bold flex flex-col items-center rounded-2xl shadow-2xl shadow-black">
           <Image src={community} className="w-48 h-48 mt-2 aspect-ratio-[4/3]" alt="image" />
-          <h1 className="p-2 text-center sm:text-xl">Weight Lifting </h1>
+          <h1 className="p-2 text-center text-2xl">Weight Lifting </h1>
           <p className="p-8 mx-4 text-md text-center  font-light   tracking-wide mb-10 ">Play with the Barbells and lift the weights to get the best results of your muscle forming with our specialized weight-lift coaches and increase your lean body mass.</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Home() {
       <div className="  sm:flex p-2 mt-6">
         <div className="">
           <h1 className={`text-4xl  font-extrabold p-8 text-black sm:text-4xl text-bold text-end`}>Stop Existing, Start Thriving</h1>
-          <p className="  italic px-8 text-sm text-bold text-center   sm:text-xl  mt-3=2 sm:pl-[40%]   ">Are you tired of just going through the motions? Ready to ditch the routine and ignite your fitness journey? We get it. At Core Fit Gym, we&apos;re here to help you stop existing and start thriving. We offer personalized plans for all fitness levels, from high-energy Zumba to restorative yoga. Let our expert trainers guide you,  accommodate past injuries, and  unleash your inner athlete. It&apos;s time to feel your best and live life to the fullest.</p>
+          <p className="  italic px-8 text-sm text-bold text-start   sm:text-xl  mt-3=2 sm:pl-[40%]   ">Are you tired of just going through the motions? Ready to ditch the routine and ignite your fitness journey? We get it. At Core Fit Gym, we&apos;re here to help you stop existing and start thriving. We offer personalized plans for all fitness levels, from high-energy Zumba to restorative yoga. Let our expert trainers guide you,  accommodate past injuries, and  unleash your inner athlete. It&apos;s time to feel your best and live life to the fullest.</p>
         </div>
         <div className=" mx-auto my-auto sm:pl-4  sm:w-[60%] flex justify-center sm:justify-start ">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/s8hWQwFwayo?si=0Icf8z8FzJ1lcBgx" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -136,8 +136,8 @@ export default function Home() {
 
       </div> */}
       {/* corosal */}
-      <div className={` bg-[url('/images/bg_temp.png')] ${inter.className}  mt-6 embla `}>
-        <h1 className={`text-black  text-3xl sm:text-5xl text-center pt-6`}>Testimonial Spotlight</h1>
+      <div className={` bg-[url('/images/bg_temp.png')] ${inter.className}   mt-6 embla `}>
+        <h1 className={`text-black  text-3xl sm:text-5xl text-center pt-8`}>Testimonial Spotlight</h1>
         <Carousel className="embla__container" plugins={[
           Autoplay({
             delay: 2000,

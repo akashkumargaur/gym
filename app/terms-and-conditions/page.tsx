@@ -25,7 +25,7 @@ const Terms = () => {
                     <h1 className="text-3xl mt-4 flex justify-center sm:text-5xl">TERMS AND CONDITIONS </h1>
                     <Accordion className="mt-4" type="single" collapsible>
                         <AccordionItem value="item-1" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">CoreFitnessGym.in</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">CORE-FIT GYM</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 This website (“Website”) is operated by CoreFit GYM India Pvt Ltd . By using or accessing this Website, you agree to these terms and conditions. If you don’t agree to these terms & conditions, please don’t use or access this
                                 Website. CoreFit GYM India may change these terms and conditions from time to time, so you should check these terms and conditions regularly.
@@ -38,37 +38,37 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-2" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">COLLECTION OF VISITOR INFORMATION</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">COLLECTION OF VISITOR INFORMATION</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 Any information collected at the Sites is governed by our Privacy Policy, unless otherwise stated. To access and use certain services available through the Sites, you may be required to register with CoreFit through a login/registration page and you must agree to be bound by any additional applicable terms and conditions contained there.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-3" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">COPYRIGHT</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">COPYRIGHT</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 All content, software, and technology included on the Sites or used in the operation of the Sites is the owned or licensed property of Core Fitness India and its content, software, and technology suppliers, and is protected by Indian and international copyright laws. Core Fitness India grants you permission to view and use content, software, and technology made available to you on the Sites in connection to your personal noncommercial use of the Sites. Any other use, including the reproduction, modification, distribution, transmission, republication, display, or performance, of the content, software, and technology on the Sites is strictly prohibited
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-4" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">TRADEMARKS</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">TRADEMARKS</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 The trademarks, service marks, trade dress, badges and appearance (the “Trademarks”) used and displayed on the Sites are registered and unregistered Trademarks of  CoreFit GYM, LLC and others. No element within the Sites can be interpreted as authorization or right to use a trademark displayed in them without the prior written consent of the owner of the Trademarks. Additional products and company names mentioned in the Sites may also be trademarks of their respective owners.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-5" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">OTHER INTELLECTUAL PROPERTY</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">OTHER INTELLECTUAL PROPERTY</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 Core Fitness India owns the intellectual property rights (including copyright and trademarks) in respect of this Website and its contents. You must not copy, modify, transmit, or adapt this Website or its contents or otherwise infringe the intellectual property rights of Core Fitness India or its licensors without Core Fitness India’s prior written consent.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-6" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">ACCURACY</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">ACCURACY</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 Information published on the Sites may contain typographical errors, inaccuracies, or omissions in relation to services, pricing, locations, descriptions, information, and other elements. Core Fitness India reserves the right to correct any errors, inaccuracies, or omissions and to discontinue, change or update information at any time without prior notice. If Core Fitness India discovers price errors, they will be corrected on our system and the corrected price will apply to your order.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-7" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">DISCLAIMER OF WARRANTIES</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">DISCLAIMER OF WARRANTIES</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 THE SITES AND ALL CONTENT, MATERIALS, PRODUCTS AND SERVICES AVAILABLE THROUGH THE SITES ARE PROVIDED ON AN “AS IS, WITH ALL DEFECTS” AND “AS AVAILABLE” BASIS WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE. YOU ACKNOWLEDGE, BY YOUR USE OF THE SITES, THAT SUCH USE IS AT YOUR SOLE RISK.
                                 To the extent permitted by law:-
@@ -80,7 +80,7 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-8" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">LIMITATION OF LIABILITY</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">LIMITATION OF LIABILITY</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 IN NO EVENT SHALL EITHER Core FITNESS INDIA OR ITS AFFILIATES, FRANCHISEES, OR AGENTS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OF THE SITES OR THE SERVICES AVAILABLE THROUGH THE SITES, WHETHER BASED ON CONTRACT, TORT, WARRANTY, STRICT LIABILITY OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF ANY SUCH DAMAGES.
 
@@ -88,7 +88,7 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-9" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">PROHIBITED ACTIVITIES & VISITOR OBLIGATIONS</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">PROHIBITED ACTIVITIES & VISITOR OBLIGATIONS</AccordionTrigger>
                             <AccordionContent className="px-2 list-disc">
                                 As a visitor or user of the Sites you shall not:
                                 <ul className="list-disc">
@@ -114,19 +114,19 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-10" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">INDEMNIFICATION</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">INDEMNIFICATION</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 You agree to indemnify, defend, and hold Core Fitness and its successors and assigns harmless from and against and in respect of any and all third party claims, demands, losses, costs, expenses, obligations, liabilities, damages, recoveries, and deficiencies, including interest, penalties, and reasonable attorneys’ fees that Core Fitness incurs or suffers which relate to your use of the Sites, your failure to perform any of your obligations under these Terms of Use, or your breach of any of your representations or warranties made under these Terms of Use.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-11" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">LINKS TO OTHER WEBSITES</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">LINKS TO OTHER WEBSITES</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 The Sites may contain links to other web sites. Additionally, other web sites may contain links to the Sites. Core Fitness does not review or monitor the web sites linked to the Sites and Core Fitness is not responsible for the content or policies of any other web sites. Any link established by Core Fitness does not constitute an endorsement of the other web sites or create a relationship between Core Fitness and the operators of other web sites. Core Fitness disclaims any liability with respect to your use of any other web site, and you release Core Fitness from any liability related to your use of any link to another web site or your use of any other web site. Where the Sites contains a link to another web site owned and/or operated by Core Fitness, such web site’s use may be subject to different and additional terms of use and privacy policy terms and conditions.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-12" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">CHANGES TO TERMS OF USE</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">CHANGES TO TERMS OF USE</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 Core Fitness India may revise these Terms of Use at any time without notice. Any use of the Sites following the date on which changes to these Terms of Use or the Privacy Policy are published on the Sites shall constitute your acceptance of all such changes. You expressly agree that Core Fitness India shall have no obligation to provide you with any notice of any changes, and you hereby expressly waive any right you may have to receive notice of any changes to these Terms of Use or the Privacy Policy.
 
@@ -145,19 +145,19 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-13" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">LINKS TO OTHER WEBSITES</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">LINKS TO OTHER WEBSITES</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 The Sites may contain links to other web sites. Additionally, other web sites may contain links to the Sites. Core Fitness does not review or monitor the web sites linked to the Sites and Core Fitness is not responsible for the content or policies of any other web sites. Any link established by Core Fitness does not constitute an endorsement of the other web sites or create a relationship between Core Fitness and the operators of other web sites. Core Fitness disclaims any liability with respect to your use of any other web site, and you release Core Fitness from any liability related to your use of any link to another web site or your use of any other web site. Where the Sites contains a link to another web site owned and/or operated by Core Fitness, such web site’s use may be subject to different and additional terms of use and privacy policy terms and conditions.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-14" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">YOUR ACCOUNT</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">YOUR ACCOUNT</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 If you are a registered user of any of the Sites, you are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer. You agree to accept responsibility for all activities that occur under your account or password. Core Fitness reserves the right, without notice and in its sole discretion, to refuse or restrict access or service, terminate accounts, or remove or edit content.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-15" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">PAYMENT</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">PAYMENT</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 You authorize Core Fitness India and any payment processing service provider, including payment gateways,  it may engage to charge your credit card, or to debit or process payment through any other offered means, or manage payment information for any products or services you purchase through your use of the Sites. You represent and warrant that :
 
@@ -181,14 +181,14 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-16" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">FITNESS CLUB OWNERS, EMPLOYEES, TRAINERS OR OTHER CONTRACTORS</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">FITNESS CLUB OWNERS, EMPLOYEES, TRAINERS OR OTHER CONTRACTORS</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 THIS SECTION OF THESE TERMS OF USE APPLIES ONLY IF YOU ARE AN Core FITNESS® CLUB OWNER, EMPLOYEE, OUTSIDE TRAINER OR OTHER CONTRACTOR WHO IS ALSO PROVIDED WITH ACCESS TO THE DATA OF OTHER USERS.
                                 You may use your ability to access data applicable to other persons (“Member Data”), and use the Member Data that is disclosed to you, solely for the purposes of providing assistance to the other person in that person’s use of the Sites or Core FITNESS® Club facilities or services. You must take all reasonable measures to prevent Member Data from being exposed or disclosed to others. You may not disclose any Member Data to any other person without the prior consent of Core Fitness India. You acknowledge that in the event any Member Data in your possession or control is exposed or disclosed without authority, whether by your fault or not, Core Fitness India may be required to give notice of such exposure to the affected members and to law enforcement authorities. You will be deemed responsible for any losses suffered by Core Fitness India or by a member which are caused by your negligent, intentional, or malicious acts regarding violation of your obligations in this paragraph.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-17" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">GENERAL PROVISIONS</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">GENERAL PROVISIONS</AccordionTrigger>
                             <AccordionContent className="px-2">
                                 English has been used in the preparation of these Terms of Use, and English shall be the controlling language with respect to these Terms of Use and their interpretation.
                                 Any failure by Core Fitness to enforce any provision of these Terms of Use shall not be construed as a waiver of any provision or the right to enforce same.
@@ -199,19 +199,19 @@ const Terms = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-18" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">SUBMISSIONS</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">SUBMISSIONS</AccordionTrigger>
                             <AccordionContent className="px-2">
                             Any and all questions, comments, suggestions, and similar materials or information that you send or submit to Core Fitness India or a third party provider on the Sites, by a Post or otherwise (collectively, “Submissions”), shall become Core Fitness India’s property; and you hereby transfer, sell, and assign to Core Fitness India all of your right, title, and interest in and to any such Submissions, including without limitation, any and all related patent, copyright, trademark, and other intellectual property rights. Core Fitness India has no obligation of any kind whatsoever to maintain any confidentiality with respect to any such Submissions. Core Fitness India shall be free to use them for any purpose whatsoever without providing you notice or receiving your consent, and without restriction or compensation.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-19" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">MEMBERSHIP TERMS AND CONDITIONS</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">MEMBERSHIP TERMS AND CONDITIONS</AccordionTrigger>
                             <AccordionContent className="px-2">
                             For Membership Terms of Use, please visit this link Membership Terms and Conditions & Equipment and Facility Policy
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="mt-4" value="item-20" >
-                            <AccordionTrigger className="px-2 text-xl sm:text-4xl">CONTACT</AccordionTrigger>
+                            <AccordionTrigger className="px-2 text-xl text-start sm:text-4xl">CONTACT</AccordionTrigger>
                             <AccordionContent className="px-2">
                             For questions or comments related to the Sites or these Terms of Use, please email us at <a href= "mailto: corefit18@gmail.com" className="text-xl"> corefit18@gmail.com </a>
                             </AccordionContent>

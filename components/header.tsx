@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 
   const routes = useMemo(() => [
     {
-      label: 'Home',
+      label: 'HOME',
       active: pathname !== '/',
       href: '/'
     },
@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
       className={twMerge(`
               min-h-[120px]
               max-h-fit 
-              bg-white scale-smooth
+              bg-slate-300 scale-smooth
               sm:fixed top-0 w-full
                 z-50 opacity-100
               ${isScrolled ? 'opacity-65' : 'opacity-100'}
@@ -96,7 +96,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
           <div className="flex justify-between sm:w-full">
             <Image src={logo} alt="logo" width={100} height={100} onClick={() => router.push('/')} className="sm:h-400" />
             <div className="pl-1 sm:pl-4 pt-4 text-bold my-auto text-3xl ">
-              <p className="text-center"><Link href='/'>Core Fit Gym</Link> </p>
+              <p className="text-center text-bold"><Link href='/'>CORE-FIT GYM</Link> </p>
             </div>
             <div className="hidden sm:flex justify-end md:flex  my-auto text-md sm:text-2xl   mx-auto tracking-wider ">
               {routes.map((item) => (

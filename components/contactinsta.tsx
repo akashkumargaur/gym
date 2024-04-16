@@ -19,7 +19,7 @@ const Insta: React.FC<InstaProps> = ({ children, className }) => {
 
 
     return (
-        <div className="fixed shadow-2xl shadow-black opacity-70 h-fit right-5 bottom-28 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-xl p-2 mr-4 hover:cursor-pointer">
+        <div className="fixed shadow-2xl shadow-black opacity-70 h-fit right-5 bottom-24 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-xl p-2 mr-4 hover:cursor-pointer">
             {/* {isOpen ?
                 <div className="relative  bottom-20 bg-green-100 text-green-700 rounded-xl p-2  hover:cursor-pointer">
                     <button className=" " onClick={handleClick}>
@@ -35,7 +35,7 @@ const Insta: React.FC<InstaProps> = ({ children, className }) => {
                 </button>
             </div> : <><button><IoClose onClick={handleClick} size={50} /></button></>} */}
 
-            <Link href={'https://www.instagram.com/corefitgym_18?igsh=ZzQ0MWFjdXg3bXV2'} target="_blank"><FaInstagram color="white" onClick={handleClick} size={50} /></Link>
+            <Link href={'https://www.instagram.com/corefitgym_18?igsh=ZzQ0MWFjdXg3bXV2'} target="_blank"><FaInstagram color="white" onClick={handleClick} size={35} /></Link>
         </div>
 
     );

@@ -16,11 +16,11 @@ const Privacy = () => {
         rounded-lg 
         h-fit 
         w-full 
-        overflow-hidden  sm:mt-[110px]
+        overflow-hidden  sm:mt-[300px]
         overflow-y-auto">
             <div className="container ml-auto py-6 h-fit  ">
                 <div className="  ">
-                    <h1 className={`text-3xl mt-4 flex justify-center sm:text-5xl`}>Privacy Policy </h1>
+                    <h1 className={`text-3xl flex justify-center sm:text-5xl`}>Privacy Policy </h1>
                     <p className="  italic  px-8 text-sm text-bold text-start   sm:text-xl  mt-6  sm:text-center ">Core Fitness Gym India,
                         respects the importance of privacy of your personal information. This Privacy Policy outlines our current policy on personal information concerning
                         club members, consumers,  and covers the operations of our fitness clubs, business development,

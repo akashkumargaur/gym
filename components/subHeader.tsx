@@ -43,7 +43,7 @@ const SubHeader: React.FC<SubHeaderProps> = ({ children, className }) => {
                         <Link href="mailto: corefit18@gmail.com" target="_blank">
                             <p className=" flex pr-2"><FaMailBulk className=" rounded-xl " size={30} />corefit18@gmail.com</p></Link>  |
                         <Link href="https://www.google.com/maps/place/CORE-FIT+GYM/@26.936183,75.7893125,16z/data=!4m6!3m5!1s0x396db3ff94b2f981:0x727d3c433525aacf!8m2!3d26.9364126!4d75.7966182!16s%2Fg%2F11v613rlsj?entry=ttu" target="_blank">
-                            <p className="pl-2 flex"><FaMapMarkerAlt className=" rounded-xl " size={30} />jaipur, rajasthan
+                            <p className="pl-2 flex"><FaMapMarkerAlt className=" rounded-xl " size={30} />Jaipur, Rajasthan
                             </p></Link>
                     </div>
                     <Link href="tel: +919785829526" target="_blank">
