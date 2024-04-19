@@ -10,7 +10,7 @@ const About = () => {
         rounded-lg 
         h-fit 
         w-full 
-        overflow-hidden  sm:mt-[300px]
+        overflow-hidden  sm:mt-[250px]
         overflow-y-auto">
             <h1 className="text-xl bg-green-800 text-white p-4  flex justify-center sm:text-5xl">Fitness Routine Which Suit You Personal Needs and Target </h1>
             <div className="container ml-auto py-6 h-fit  ">

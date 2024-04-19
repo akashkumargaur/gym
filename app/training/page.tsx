@@ -18,7 +18,7 @@ const Training = () => {
         mt-2
         h-fit 
         w-full 
-        overflow-hidden  sm:mt-[110px]
+        overflow-hidden  sm:mt-[250px]
         overflow-y-auto">
       <div className="container pt-10  py-6 h-fit  ">
         <div className=" font-bold sm:mt-14 ">

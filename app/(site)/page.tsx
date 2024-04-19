@@ -2,7 +2,7 @@
 
 
 import support from "../../public/images/yoga.jpg";
-import training from "../../public/images/bodybuilding.jpg";
+import training from "../../public/images/bodybuilding.png";
 import community from "../../public/images/weightTraining.png";
 import convinence from "../../public/images/zumba.png";
 

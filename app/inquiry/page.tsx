@@ -16,7 +16,7 @@ const Inquiry = () => {
         rounded-lg 
         h-fit 
         w-full 
-        overflow-hidden  sm:mt-[110px]
+        overflow-hidden  sm:mt-[250px]
         bg-[url('/images/bg_info.jpeg')] bg-cover bg-center text-white
         overflow-y-auto">
             <div className=" container ml-auto py-6 h-fit  ">
