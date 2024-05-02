@@ -72,12 +72,12 @@ const Membership = () => {
         <div className=" mx-4 font-bold flex flex-col items-center">
           <Image src={convinence} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center text-2xl">Convenience </h1>
-          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Your convenience is our priority at our gym, where we've tailored our services to fit seamlessly into your busy lifestyle. From flexible membership options to convenient amenities, we're here to make your fitness journey as effortless as possible.</p>
+          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Your convenience is our priority at our gym, where we&apos;ve tailored our services to fit seamlessly into your busy lifestyle. From flexible membership options to convenient amenities, we&apos;re here to make your fitness journey as effortless as possible.</p>
         </div>
         <div className=" mx-4 font-bold flex flex-col items-center">
           <Image src={community} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center text-2xl">Community </h1>
-          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Our gym community is inclusive and diverse, welcoming individuals of all ages, backgrounds, and fitness levels. Whether you're a seasoned athlete or a newcomer to fitness, you'll find a place where you belong and where your unique journey is celebrated.</p>
+          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Our gym community is inclusive and diverse, welcoming individuals of all ages, backgrounds, and fitness levels. Whether you&apos;re a seasoned athlete or a newcomer to fitness, you&apos;ll find a place where you belong and where your unique journey is celebrated.</p>
         </div>
       </div>
       <Image src={training4} alt="image" className="h-[80%] w-[80%] mx-auto mt-10 " />

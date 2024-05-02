@@ -30,7 +30,7 @@ const Training = () => {
             <div className="bg-cyan-800 hover:animate-slideIn rounded-2xl  mx-4  font-bold shadow-2xl shadow-black " >
               <Image src={training1} className="h-fit w-fit " alt="image" />
               <h1 className="p-2  text-center sm:text-2xl">FITNESS CONSULTATION </h1>
-              <p className=" p-2  text-center italic font-light mt-5 tracking-wide mb-10 ">Feeling unsure where to begin? Our complimentary fitness consultation is your first step to a healthier, happier you. During this personalized session, we'll chat about your goals, any past injuries you may have, and your current fitness level. schedule your free consultation today!
+              <p className=" p-2  text-center italic font-light mt-5 tracking-wide mb-10 ">Feeling unsure where to begin? Our complimentary fitness consultation is your first step to a healthier, happier you. During this personalized session, we&apos;ll chat about your goals, any past injuries you may have, and your current fitness level. schedule your free consultation today!
 
               </p>
             </div>
@@ -38,14 +38,14 @@ const Training = () => {
               <Image src={training2} className="h-fit w-fit " alt="image" />
               <h1 className="p-2 text-center sm:text-2xl">GROUP FITNESS </h1>
               <p className="p-2 text-center italic font-light  mt-5 tracking-wide mb-10 ">Want to ditch the solo sweat session and experience the electrifying energy of group fitness? Our classes are designed to push you further, fueled by the power of community.
-                From the infectious rhythms of Zumba to the heart-pumping intensity of cardio, there's a class to match your vibe and fitness level.
+                From the infectious rhythms of Zumba to the heart-pumping intensity of cardio, there&apos;s a class to match your vibe and fitness level.
               </p>
             </div>
             <div className="bg-cyan-800 rounded-2xl mx-4 font-bold shadow-2xl shadow-black">
               <Image src={training3} className="h-fit w-fit " alt="image" />
               <h1 className="p-2 text-center sm:text-2xl">PERSONALIZED TRAINING </h1>
-              <p className="p-2 text-center italic font-light  mt-5 tracking-wide mb-10 ">Personalized training isn't a one-size-fits-all
-                approach. Whether you're a seasoned gym rat or just starting out, we understand your goals and limitations are unique.
+              <p className="p-2 text-center italic font-light  mt-5 tracking-wide mb-10 ">Personalized training isn&apos;t a one-size-fits-all
+                approach. Whether you&apos;re a seasoned gym rat or just starting out, we understand your goals and limitations are unique.
                 Our expert trainers will create a custom plan that considers any past injuries, your current fitness level, and what truly
                 excites you. </p>
             </div>
