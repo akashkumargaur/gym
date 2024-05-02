@@ -8,12 +8,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-
-import membership1 from "../../public/images/member0.webp";
-import membership2 from "../../public/images/member1.webp";
-import membership3 from "../../public/images/member2.webp";
-import membership4 from "../../public/images/member4.webp";
-
 import training1 from "../../public/images/01.jpg";
 import training2 from "../../public/images/training-2.jpg";
 import training3 from "../../public/images/training-3.jpg";
@@ -73,20 +67,17 @@ const Membership = () => {
         <div className=" mx-4  font-bold flex flex-col items-center">
           <Image src={training} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center text-2xl">Tools & Training</h1>
-          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Gain confidence for your fitness journey with
-            our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
+          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Unlock your full potential with the right tools and training at our gym. We provide state-of-the-art equipment and expert-led training programs tailored to your fitness goals and experience level.</p>
         </div>
         <div className=" mx-4 font-bold flex flex-col items-center">
           <Image src={convinence} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center text-2xl">Convenience </h1>
-          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Gain confidence for your fitness journey with
-            our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
+          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Your convenience is our priority at our gym, where we've tailored our services to fit seamlessly into your busy lifestyle. From flexible membership options to convenient amenities, we're here to make your fitness journey as effortless as possible.</p>
         </div>
         <div className=" mx-4 font-bold flex flex-col items-center">
           <Image src={community} className="w-48 h-48 aspect-ratio-[4/3]" alt="image" />
           <h1 className="p-2 text-center text-2xl">Community </h1>
-          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Gain confidence for your fitness journey with
-            our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan</p>
+          <p className="p-12 mx-4 text-xl text-center  font-light   tracking-wide mb-10 ">Our gym community is inclusive and diverse, welcoming individuals of all ages, backgrounds, and fitness levels. Whether you're a seasoned athlete or a newcomer to fitness, you'll find a place where you belong and where your unique journey is celebrated.</p>
         </div>
       </div>
       <Image src={training4} alt="image" className="h-[80%] w-[80%] mx-auto mt-10 " />

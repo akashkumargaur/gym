@@ -49,6 +49,11 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
       active: pathname === '/find-gym',
       href: '/find-gym'
     },
+    {
+      label: 'VIDEOS',
+      active: pathname === '/videos',
+      href: '/videos'
+    },
   ], []);
 
   const [isScrolled, setIsScrolled] = useState(false);
