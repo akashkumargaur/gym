@@ -1,7 +1,6 @@
 "use client"
 // pages/videos.tsx
 import React, { useState } from 'react';
-import SwipeableViews from 'react-swipeable-views';
 import VideoPlayer from '../../components/videoplayer';
 
 const VideosPage: React.FC = () => {
