@@ -79,10 +79,6 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
     };
   }, []);
 
-  const handlelinkClick =()=>{
-
-  }
-
   return (
     <div
       className={twMerge(`
@@ -95,11 +91,11 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
               `,
         className
       )}>
-        {!isScrolled&&<SubHeader><></></SubHeader>}
+      {!isScrolled && <SubHeader><></></SubHeader>}
       <div className={` w-full `}>
-        <div className="flex flex-col pl-2 pt-2">
+        <div className="flex flex-col my-auto ">
           <div className="flex justify-between sm:w-full">
-            <Image src={logo} alt="logo" width={100} height={100} onClick={() => router.push('/')} className="sm:h-400" />
+            <Image src={logo} alt="logo" width={100} height={100} onClick={() => router.push('/')} className="sm:h-400 cursor-pointer pl-2" />
             <div className="pl-1 sm:pl-4 pt-4 text-bold my-auto text-3xl ">
               <p className="text-center text-bold"><Link href='/'>CORE-FIT GYM</Link> </p>
             </div>
@@ -108,22 +104,17 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                 <HeaderItem key={item.label} {...item} />
               ))}
             </div>
-            <div className="flex md:hidden  items-center">
-          <button
-            onClick={handleClick}
-            className="
+            <div className="flex md:hidden  my-auto">
+              <div
+                className="
                     rounded-full 
-                    pb-10
                     pl-2
                     cursor-pointer 
-                    hover:opacity-75 
-                    transition
-                    z-50
                   "
-          >
-            {!isOpen ? <IoReorderThreeOutline className="" size={30} /> : <RxCross2 className="" size={20} />}
-          </button>
-        </div>
+              >
+                {!isOpen ? <div className="my-auto"><IoReorderThreeOutline onClick={handleClick} className="" size={30} /></div> : <RxCross2 onClick={handleClick} className="" size={20} />}
+              </div>
+            </div>
           </div>
           {isOpen && <>
             <div className="flex flex-col mt-2 text-2xl   mx-auto  items-end tracking-wider">

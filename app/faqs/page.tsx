@@ -18,7 +18,7 @@ const Faq = () => {
         rounded-lg 
         h-fit 
         w-full 
-        overflow-hidden  sm:mt-[250px]
+        overflow-hidden  sm:mt-[150px]
         overflow-y-auto">
             <div className="container ml-auto py-6 h-fit  ">
                 <div className="   font-bold ">

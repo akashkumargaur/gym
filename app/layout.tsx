@@ -5,6 +5,10 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import WhatsApp from "@/components/contactwp";
 import Insta from "@/components/contactinsta";
+import Dailyupdate from "@/components/dailyupdate"
+
+import ModalProvider from "@/providers/Modelprovider"
+
 
 const inter = Kanit({ subsets: ["latin"], weight: ['400'] });
 
@@ -31,8 +35,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={inter.className}>
+        <ModalProvider />
         <Header><> {/*header*/}</></Header>
         {children}
+        <Dailyupdate><></></Dailyupdate>
         <Insta><></></Insta>
         <WhatsApp><></></WhatsApp>
         <Footer><> {/*footer*/}</></Footer>
